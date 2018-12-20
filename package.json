@@ -1,0 +1,59 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "apollo-angular-link-network-status",
+  "description": "Information about the network status of your GraphQL operations. Built for Apollo Angular.",
+  "version": "1.0.3",
+  "author": {
+    "email": "kamil.kisiela@gmail.com",
+    "name": "Kamil Kisiela",
+    "url": "https://github.com/kamilkisiela"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kamilkisiela/apollo-angular-link-network-status"
+  },
+  "main": "dist/bundles/ng.apollo-network-status.umd.js",
+  "module": "dist/fesm5/ng.apollo-network-status.js",
+  "typings": "dist/ng.apollo-network-status.d.ts",
+  "license": "MIT",
+  "sideEffects": false,
+  "keywords": [
+    "graphql",
+    "angular",
+    "ngx",
+    "apollo",
+    "apollo-angular",
+    "apollo-link",
+    "api"
+  ],
+  "scripts": {
+    "build": "ng-packagr -p package.json",
+    "prerelease": "yarn build",
+    "release": "npm publish dist"
+  },
+  "peerDependencies": {
+    "@angular/core": "^6.0.0 | ^7.0.0",
+    "apollo-link": "^1.0.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "7.1.4",
+    "@angular/compiler-cli": "7.1.4",
+    "@angular/core": "7.1.4",
+    "apollo-link": "1.2.6",
+    "ng-packagr": "4.4.5",
+    "tsickle": "0.34.0",
+    "typescript": "3.1.6"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts",
+      "flatModuleFile": "ng.apollo-network-status",
+      "umdModuleIds": {
+        "@angular/core": "ng.core",
+        "apollo-link": "apolloLink.core",
+        "rxjs": "rxjs",
+        "rxjs/operators": "rxjs.operators"
+      }
+    }
+  }
+}
