@@ -2,7 +2,7 @@
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "apollo-angular-link-network-status",
   "description": "Information about the network status of your GraphQL operations. Built for Apollo Angular.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "email": "kamil.kisiela@gmail.com",
     "name": "Kamil Kisiela",
@@ -32,17 +32,17 @@
     "release": "npm publish dist"
   },
   "peerDependencies": {
-    "@angular/core": "^6.0.0 | ^7.0.0",
+    "@angular/core": "^6.0.0 || ^7.0.0",
     "apollo-link": "^1.0.0"
   },
   "devDependencies": {
-    "@angular/compiler": "7.1.4",
-    "@angular/compiler-cli": "7.1.4",
-    "@angular/core": "7.1.4",
-    "apollo-link": "1.2.6",
-    "ng-packagr": "4.4.5",
-    "tsickle": "0.34.0",
-    "typescript": "3.1.6"
+    "@angular/compiler": "7.2.13",
+    "@angular/compiler-cli": "7.2.13",
+    "@angular/core": "7.2.13",
+    "apollo-link": "1.2.11",
+    "ng-packagr": "5.1.0",
+    "tsickle": "0.34.3",
+    "typescript": "3.2.4"
   },
   "ngPackage": {
     "lib": {
