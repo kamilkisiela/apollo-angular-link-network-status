@@ -77,6 +77,9 @@ export class ApolloNetworkStatus extends ApolloLink {
           this._onError({ operation, error });
           observer.error(error);
         },
+        complete: () => {
+          observer.complete();
+        },
       });
 
       return () => {
