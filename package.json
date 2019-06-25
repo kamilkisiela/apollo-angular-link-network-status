@@ -55,5 +55,10 @@
         "rxjs/operators": "rxjs.operators"
       }
     }
-  }
+  },
+  "size-limit": [
+    {
+      "path": "dist/bundles/ng.apollo-network-status.umd.js"
+    }
+  ]
 }
