@@ -15,8 +15,3 @@ action "Build" {
   runs = "yarn"
   args = "build"
 }
-
-action "Size" {
-  needs = "Build"
-  uses = "kamilkisiela/size-limit@master"
-}
