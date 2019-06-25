@@ -56,8 +56,9 @@
       }
     }
   },
-  "size-limi": {
-    "webpack": false,
-    "path": "dist/bundles/ng.apollo-network-status.umd.js"
-  }
+  "size-limit": [
+    {
+      "path": "dist/bundles/ng.apollo-network-status.umd.js"
+    }
+  ]
 }
