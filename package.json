@@ -33,7 +33,7 @@
   },
   "peerDependencies": {
     "@angular/core": "^6.0.0 || ^7.0.0",
-    "apollo-link": "^1.0.0"
+    "@apollo/client": "^3.0.0"
   },
   "devDependencies": {
     "@angular/compiler": "7.2.13",
@@ -50,7 +50,6 @@
       "flatModuleFile": "ng.apollo-network-status",
       "umdModuleIds": {
         "@angular/core": "ng.core",
-        "apollo-link": "apolloLink.core",
         "rxjs": "rxjs",
         "rxjs/operators": "rxjs.operators"
       }
