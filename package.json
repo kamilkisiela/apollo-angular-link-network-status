@@ -39,7 +39,7 @@
     "@angular/compiler": "7.2.13",
     "@angular/compiler-cli": "7.2.13",
     "@angular/core": "7.2.13",
-    "apollo-link": "1.2.11",
+     "@apollo/client": "^3.0.0"
     "ng-packagr": "5.1.0",
     "tsickle": "0.34.3",
     "typescript": "3.2.4"
