@@ -33,13 +33,13 @@
   },
   "peerDependencies": {
     "@angular/core": "^6.0.0 || ^7.0.0",
-    "apollo-link": "^1.0.0"
+    "@apollo/client": "^3.0.0"
   },
   "devDependencies": {
     "@angular/compiler": "7.2.13",
     "@angular/compiler-cli": "7.2.13",
     "@angular/core": "7.2.13",
-    "apollo-link": "1.2.11",
+     "@apollo/client": "^3.0.0"
     "ng-packagr": "5.1.0",
     "tsickle": "0.34.3",
     "typescript": "3.2.4"
@@ -50,7 +50,6 @@
       "flatModuleFile": "ng.apollo-network-status",
       "umdModuleIds": {
         "@angular/core": "ng.core",
-        "apollo-link": "apolloLink.core",
         "rxjs": "rxjs",
         "rxjs/operators": "rxjs.operators"
       }

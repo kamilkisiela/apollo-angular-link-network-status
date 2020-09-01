@@ -4,7 +4,7 @@ import {
   Operation,
   FetchResult,
   Observable as LinkObservable,
-} from 'apollo-link';
+} from '@apollo/client/core';
 import {
   BehaviorSubject,
   Subject,
